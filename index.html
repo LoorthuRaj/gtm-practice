@@ -1,12 +1,17 @@
 <input id="num1" value=5>
 <input id="num2" value=6>
-<buttton id="Add">Add</buttton>
+<buttton id="sum" onclick="addition()">Add</buttton>
 <p>Total</p>
 <script>
   var num1=document.getElementById("num1").value
   var num2=document.getElementById("num2").value
- var total=num1+num2
-  console.log(total)
+ 
+
+  function addition()
+  {
+   var total=num1+num2
+  console.log(total) 
+  }
   
 </script>
 
