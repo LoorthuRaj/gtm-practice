@@ -3,14 +3,12 @@
 <buttton id="sum" onclick="addition()">Add</buttton>
 <p id="p1">Total</p>
 <script>
-
+ var finalresult=document.getElementById("p1")
   function addition()
   {
       var num1=Number(document.getElementById("num1").value)
       var num2=Number(document.getElementById("num2").value)
             var total=num1+num2
-             console.log(total) 
-    var finalresult=document.getElementById("p1")
     finalresult.textContent=total
     console.log(total)
         
